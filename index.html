@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INTRO</title>
+    <style>
+         *{
+            margin: 0;
+         }
+       /* ye body me karne ke liye tha ab agr html page ko bas color krna hai ya photo add krna hai to 
+       html ka object bna kr krte hai
+         body{
+            background: #8f7878;
+            margin: 0;//some time body gives margin   
+         } */
+
+         /* html{
+            background: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) 
+            no-repeat center
+            center fixed;
+            background-size:cover;
+         } */
+         /* body{
+            background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: cover;
+         } */
+
+         body{
+           background-color: rgb(58, 53, 53);
+         }
+
+
+        
+        h1{
+          color: #5b0296;  
+          background-color: #ebcd49;
+          text-align: center;
+          padding: 20px; /*ye border ke ander wale ko badha deta hai*/
+          /* margin: 20px; ye boder ke bahar dimension ko badhata hai */
+
+          /*in css there is a rule if upper one have same margin and lower have same margin then they overlap*/
+
+          text-decoration: underline;
+          border: solid 2px #ededed;
+        }
+
+        /* in css there are some block element and some inline element 
+        block element are those who require all the space from left to right while 
+        inline element are those which require only text block */
+
+        span{
+            font-size: 60px;
+            color: #fff;
+            text-align: center;
+            background-color: orangered;
+        }
+    
+        p{/*it is block level but using display we can make it inline and it situated where it find space in upper one*/
+           background-color: #b99f2c; 
+           display: inline;
+        }
+        /*redering is more important and used in react also*/
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <span>Text in span </span>
+    <p>Hello I'm beginner in css</p>
+    <p>Hello I'm beginner in css</p>
+
+</body>
+</html>
